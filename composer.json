@@ -1,0 +1,23 @@
+{
+	"name": "opd/opd-features",
+	"description": "Adds features to One Perfect Dish site.",
+	"type": "project",
+	"license": "GPL-3.0",
+	"autoload": {
+		"classmap": [
+			"includes/"
+		]
+	},
+	"authors": [
+		{
+			"name": "Joel Goodman",
+			"email": "hello@joelgoodman.co"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"johnpbloch/wordpress-core-installer": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
